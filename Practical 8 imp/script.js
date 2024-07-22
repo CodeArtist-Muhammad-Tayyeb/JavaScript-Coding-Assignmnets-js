@@ -67,5 +67,3 @@
 // var newNum = num1.toString();
 // console.log("Number to String: " +newNum);
 
-// 
-;
