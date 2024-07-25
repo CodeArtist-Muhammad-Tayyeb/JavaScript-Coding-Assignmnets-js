@@ -11,12 +11,12 @@
 // }
 
 // ----------------------INPUT SYANTAX FOR ARRAY------------------------------------
-// let numbers = new Array(5);
-// for (let i=0; i<5; i++) {
-//     let input = prompt("Enter any Number: ");
-//     numbers[i] = Number(input);
-// }
-// console.log("Full Array is: " +numbers);
+let numbers = new Array(5);
+for (let i=0; i<5; i++) {
+    let input = prompt("Enter any Number: ");
+    numbers[i] = Number(input);
+}
+console.log("Full Array is: " +numbers);
 
 // ------------------CHAPTER 16---------------------
 // var arr = [];
@@ -45,19 +45,19 @@
 // console.log("This is array after Pop: " +arr);
 
 // ------------------------Shift(),unshift(),slice() and splice()-----------------
-var arr = [9,8,7,6];
-arr.shift(); // like Pop();
-console.log(arr); // [8,7,6]
+// var arr = [9,8,7,6];
+// arr.shift(); // like Pop();
+// console.log(arr); // [8,7,6]
 
-arr.unshift(9); // like Push(9)
-console.log(arr); // [9,8,7,6]
+// arr.unshift(9); // like Push(9)
+// console.log(arr); // [9,8,7,6]
 
-arr.splice(0, 6,'T','A','Y','Y','E','B');
-console.log(arr); 
+// arr.splice(0, 6,'T','A','Y','Y','E','B');
+// console.log(arr); 
 
-arr.splice(1,1, 'a');
-console.log(arr);
+// arr.splice(1,1, 'a');
+// console.log(arr);
 
-let arr1 = arr.slice(4,6);
-console.log(arr1);
-console.log(arr);
+// let arr1 = arr.slice(4,6);
+// console.log(arr1);
+// console.log(arr);
