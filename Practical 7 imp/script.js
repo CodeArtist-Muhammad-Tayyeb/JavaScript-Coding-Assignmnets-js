@@ -13,3 +13,5 @@
 
 /* Write a JavaScript program that asks the user for a string, a substring to search for, and a replacement substring, and then displays 
 the modified string with all occurrences of the search substring replaced using the replace() method. 3 marks */
+
+
