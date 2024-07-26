@@ -158,7 +158,10 @@
 // -----------------------------------Specifying a Date and Time---------------------------
 /* Create a Date object for a specific date and time (e.g. January 1, 2022 12:00:00). */
 
-var specificDate = new Date("2022-01-01T12:00:00");
+// var specificDate = new Date("2022-01-01T12:00:00");
+
+var specificDate = new Date();
+
 
 var monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"];
