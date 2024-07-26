@@ -158,21 +158,21 @@
 // -----------------------------------Specifying a Date and Time---------------------------
 /* Create a Date object for a specific date and time (e.g. January 1, 2022 12:00:00). */
 
-// var specificDate = new Date("2022-01-01T12:00:00");
+var specificDate = new Date("2022-01-01T12:00:00");
 
-// var monthNames = ["January", "February", "March", "April", "May", "June",
-//     "July", "August", "September", "October", "November", "December"];
+var monthNames = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"];
 
-// var month = specificDate.getMonth(); 
-// var monthName = monthNames[month];
+var month = specificDate.getMonth(); 
+var monthName = monthNames[month];
 
-// var year = specificDate.getFullYear();
-// var day = specificDate.getDate();
-// var hours = specificDate.getHours();
-// var minutes = specificDate.getMinutes();
-// var seconds = specificDate.getSeconds();
+var year = specificDate.getFullYear();
+var day = specificDate.getDate();
+var hours = specificDate.getHours();
+var minutes = specificDate.getMinutes();
+var seconds = specificDate.getSeconds();
 
-// console.log(monthName+ " " +day+ ", " +year+ " " +hours+ ":" +minutes+ ":" +seconds);
+console.log(monthName+ " " +day+ ", " +year+ " " +hours+ ":" +minutes+ ":" +seconds);
 
 /* Create a Date object for a specific date and time using user-inputted values. */
 
