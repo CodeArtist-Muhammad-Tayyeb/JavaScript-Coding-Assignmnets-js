@@ -97,12 +97,83 @@
 // var newNum = num.toFixed(4);
 // console.log(newNum);
 
+// var inputNum = prompt("Enter Number: ");
+// var num1 = parseFloat(inputNum);
+// console.log(num1);
+// var inputForPlaces = prompt("Enter number for Decimal places: ");
+// var num2 = parseInt(inputForPlaces);
+// console.log(num2);
+// var newNum = num1.toFixed(num2);
+// console.log(newNum);
+          
 // --------------------------------------------------------------------------------------------------------------
-var rightNow = new Date();
-console.log(rightNow);
+// var rightNow = new Date();
+// console.log(rightNow);
 
-var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-var now = new Date();
-var theDay = now.getDay();
-var nameOfToday = dayNames[theDay];
-console.log(dayNames[theDay]);
+/* Print the current date and time in a specific format (e.g. "YYYY-MM-DD HH:mm:ss"). */
+
+// var date = new Date();
+// var newDate = date.toISOString();
+// console.log("YYYY-MM-DD HH:mm:ss Time is: " +newDate);
+
+/* Write a program that returns the current date and time as a string. */
+// var currentDate = new Date()
+// var newNum = currentDate.toString();
+// console.log(newNum);
+// console.log(typeof(newNum));
+
+/*AGE CALCULATOR BY BIRTHDATE */
+// var inputDOB = prompt("Enter Your DOB (DD-MM-YYYY) : ");
+// var birthDate = new Date(inputDOB);
+
+// var currentDate = new Date();
+
+// var totalAge = currentDate.getFullYear() - birthDate.getFullYear();
+// console.log("Your Total Age is: " +totalAge);
+
+// ----------------------------Extracting Parts of the Date and Time----------------------
+
+/* Extract the year from the current date and print it to the console.  */
+// var currentDate = new Date();
+// var getOnlyYear = currentDate.getFullYear();
+// console.log(getOnlyYear);
+
+/* Extract the month from the current date and print it to the console. */
+// var currentDate = new Date();
+// var getOnlyMonth = currentDate.getMonth();
+// console.log(getOnlyMonth);
+
+/* Write a program that takes a date input and extracts the day, month,
+ and year as separate values. */
+
+// var inputDate = prompt("Enter the date: ");
+// var date = new Date(inputDate);
+
+// var getCurrentDate = date.getDate();
+// var getCurrentMonth = date.getMonth() + 1;
+// var getCurrentYear = date.getFullYear();
+
+// console.log("Date: " +getCurrentDate+ " Month: " +getCurrentMonth+ " Year: " +getCurrentYear);
+
+// -----------------------------------Specifying a Date and Time---------------------------
+/* Create a Date object for a specific date and time (e.g. January 1, 2022 12:00:00). */
+
+// var specificDate = new Date("2022-01-01T12:00:00");
+
+// var monthNames = ["January", "February", "March", "April", "May", "June",
+//     "July", "August", "September", "October", "November", "December"];
+
+// var month = specificDate.getMonth(); 
+// var monthName = monthNames[month];
+
+// var year = specificDate.getFullYear();
+// var day = specificDate.getDate();
+// var hours = specificDate.getHours();
+// var minutes = specificDate.getMinutes();
+// var seconds = specificDate.getSeconds();
+
+// console.log(monthName+ " " +day+ ", " +year+ " " +hours+ ":" +minutes+ ":" +seconds);
+
+/* Create a Date object for a specific date and time using user-inputted values. */
+
+
