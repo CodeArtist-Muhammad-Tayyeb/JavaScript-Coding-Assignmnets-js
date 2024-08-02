@@ -158,25 +158,74 @@
 // -----------------------------------Specifying a Date and Time---------------------------
 /* Create a Date object for a specific date and time (e.g. January 1, 2022 12:00:00). */
 
-// var specificDate = new Date("2022-01-01T12:00:00");
+// var specificDate = new Date("January 1, 2022 12:00:00");
+// var specificDate = new Date();
+// var monthNames = ['Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sep','Oct','Nov','Dec'];
+// // var monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
 
-var specificDate = new Date();
+// var month = specificDate.getMonth(); 
+// var monthName = monthNames[month];
 
+// var year = specificDate.getFullYear();
+// var day = specificDate.getDate();
+// var hours = specificDate.getHours();
+// var minutes = specificDate.getMinutes();
+// var seconds = specificDate.getSeconds();
 
-var monthNames = ["January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"];
-
-var month = specificDate.getMonth(); 
-var monthName = monthNames[month];
-
-var year = specificDate.getFullYear();
-var day = specificDate.getDate();
-var hours = specificDate.getHours();
-var minutes = specificDate.getMinutes();
-var seconds = specificDate.getSeconds();
-
-console.log(monthName+ " " +day+ ", " +year+ " " +hours+ ":" +minutes+ ":" +seconds);
+// console.log(monthName+ " " +day+ ", " +year+ " " +hours+ ":" +minutes+ ":" +seconds);
 
 /* Create a Date object for a specific date and time using user-inputted values. */
+
+// var year = prompt("Enter the Year: ");
+// var month = prompt("Enter the month(1-12): ");
+
+// var day = prompt("Enter the day(1-31): ");
+// var hour = prompt("Enter the hours: ");
+// var minutes = prompt("Enter the Min: ");
+// var seconds = prompt("Enter the Seconds: ");
+
+// month = month - 1;
+// var date = new Date(year, month, day, hour, minutes, seconds);
+
+// alert("Date Object: " +date);
+
+
+/* Write a program that takes a string input (e.g. "2022-01-01 12:00:00") and 
+creates a Date object from it. */
+ 
+// var inputString = "2022-01-01 12:45:00";
+// var dateobject = new Date(inputString);
+
+// console.log(dateobject);
+
+// -------------------------Changing Elements of a Date and Time----------------------------
+/* Add one day to the current date and print the new date. */
+
+// var currentDate = new Date();
+// var newDate = new Date(currentDate.getTime() + 24 * 60 * 60 * 1000);
+// console.log("The next date is: " +newDate);
+
+/* Subtract one hour from the current time and print the new time. */
+
+// var currentTime = new Date();
+// console.log("Current Time is: " +currentTime);
+// var previousTime = new Date(currentTime.getTime() - 60 * 60 * 1000);
+// console.log("One Hour Ago: " +previousTime);
+
+/* Write a program that takes a Date object and 
+adds or subtracts a specified number of days, hours, or minutes. */
+
+// var currentDate = new Date("2022-12-31 12:45:11");
+// console.log(currentDate);
+// var newDate = new Date(currentDate.getTime() + 24 * 60 * 60 * 1000);
+// console.log(newDate);
+
+/* Countdown Timer: Write a JavaScript program to create a countdown timer that displays
+ the remaining time until a specific date and time. */
+
+
+
+
+
 
 
