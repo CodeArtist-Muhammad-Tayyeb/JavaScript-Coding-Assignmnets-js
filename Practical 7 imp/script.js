@@ -11,8 +11,9 @@
 //     console.log("Error: Plz Enter index between 0 and " + (inputForString.length - 1));
 // }
 
-/* Write a JavaScript program that asks the user for a string, a substring to search for, and a replacement substring, and then displays 
-the modified string with all occurrences of the search substring replaced using the replace() method. 3 marks */
+/* Write a JavaScript program that asks the user for a string, a substring to search for, and a replacement substring, 
+and then displays the modified string with all occurrences of the search substring replaced 
+using the replace() method. 3 marks */
 
 // let inputString = prompt("Enter any String: ");
 // console.log(inputString);
@@ -29,15 +30,15 @@ the modified string with all occurrences of the search substring replaced using 
 
 //  var input = prompt("Enter any Numbers: ");
 //  var newNum = Math.round(input);
-//  console.log(newNum);
+//  console.log("The " +input+ " rounded Form is: " +newNum);
 
 /* Write a JavaScript program that asks the user for a number and then displays the ceiling of
  the number using the ceil() method. For example, if the user inputs 4.2, the program should 
  display 5. 3 marks */
 
-// var input = prompt("Emter any number: ");
-// var newNum = Math.ceil(input);
-// console.log(newNum);
+var input = prompt("Emter any number: ");
+var newNum = Math.ceil(input);
+console.log(newNum);
 
 /* Write a JavaScript program that asks the user for a number and then displays the flooring of 
 the number using the floor() method. For example, if the user inputs 8.6, the program should 

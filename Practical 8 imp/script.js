@@ -1,22 +1,26 @@
 // ---------------------------GENRATE A RANDOM NUMBERS BETWEEN 1 AND 100-----------------------------
 
-// var ranNum = Math.random();
-// var newRanNum = (ranNum * 100) + 1;
-// console.log(newRanNum);
+// var randomNum = Math.random();
+// var newRandomNum = (randomNum * 100) + 1;
+// console.log(newRandomNum);
 
 // ---------------------------GENRATE A RANDOM NUMBERS BETWEEN 2 INPUT OF USER-----------------------
 
-// var num1 = prompt("Enter First Number: ");
+// var num1 = prompt("Enter First Number: ", "1");
 // var num2 = prompt("Enter Second Number: ");
 // var randomNum = Math.random();
 // var newNum = (randomNum *  num2) + num1;
 // console.log(newNum);
 
+// let a = +prompt("Enter any Number");
+// let b = Math.ceil(Math.random() * a);
+
+// console.log(b);
+
 // ---------------------------WHEN COIN IS TOSSED----------------------------------------------------
 
-// var randomNum = Math.random()
-// var newNum = Math.round(randomNum);
-// if (newNum===0){
+// var randomNum = Math.round(Math.random());
+// if (randomNum == 0){
 //     console.log("Head");
 // }else{
 //     console.log("Tail");
@@ -55,9 +59,9 @@
 // var newNum2 = Number(num1);
 // var newNum3 = parseFloat(num1);
 
-// console.log(newNum1);
-// console.log(newNum2);
-// console.log(newNum3);
+// console.log("The " +newNum1+ " is: " +typeof(newNum1));
+// console.log("The " +newNum2+ " is: " +typeof(newNum2));
+// console.log("The " +newNum3+ " is: " +typeof(newNum3));
 
 // ----------------------------TAKE INPUT FROM USER AND CONVERT TO INT OR DEC--------------------------
 
@@ -70,10 +74,12 @@
 // var num1 = "123";
 // var newNum = Number(num1);
 // console.log("String to Number: " +newNum);
+// console.log(typeof(newNum));
 
 // var num1 = 1234;
-// var newNum = num1.toString();
-// console.log("Number to String: " +newNum);
+// var newNum1 = num1.toString();
+// console.log("Number to String: " +newNum1);
+// console.log(typeof(newNum1));
 
 // ---------------------------TAKE INPUT FROM USER AND CONVERT TO STRING OR NUMBER----------------------
 
@@ -90,7 +96,7 @@
 
 // -----------------------------CONTROLLING THE FORMAT OF A NUMBERS---------------------------------------------
 // var num = 123.45678;
-// var newNum = num.toFixed(2);
+// var newNum = num.toFixed(9);
 // console.log(newNum);
 
 // var num = 123.45678;
@@ -109,6 +115,9 @@
 // --------------------------------------------------------------------------------------------------------------
 // var rightNow = new Date();
 // console.log(rightNow);
+
+// let a = new Date();
+// console.log(a.toLocaleString());
 
 /* Print the current date and time in a specific format (e.g. "YYYY-MM-DD HH:mm:ss"). */
 
@@ -207,10 +216,10 @@ creates a Date object from it. */
 
 /* Subtract one hour from the current time and print the new time. */
 
-// var currentTime = new Date();
-// console.log("Current Time is: " +currentTime);
-// var previousTime = new Date(currentTime.getTime() - 60 * 60 * 1000);
-// console.log("One Hour Ago: " +previousTime);
+var currentTime = new Date();
+console.log("Current Time is: " +currentTime);
+var previousTime = new Date(currentTime.getTime() - 60 * 60 * 1000);
+console.log("One Hour Ago: " +previousTime);
 
 /* Write a program that takes a Date object and 
 adds or subtracts a specified number of days, hours, or minutes. */

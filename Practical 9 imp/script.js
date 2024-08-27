@@ -45,7 +45,7 @@ Test the function with different inputs (e.g., averageArray([1, 2, 3]), averageA
 // }
 
 // console.log(averageArray([2,4]));
-// console.log(averageArray([2,4,6,8]));
+// // console.log(averageArray([2,4,6,8]));
 
 /* Assignment 4:
 Task: Write a JavaScript function that takes a string as an argument and returns the string with all vowels removed.
@@ -93,14 +93,14 @@ The function should take a string argument, str.
 The function should use a loop or recursion to reverse the letters in the string.
 Test the function with different inputs (e.g., reverseString("hello"), reverseString("world")). */
 
-function reverseString(str) {
-    let reverse = '';
-    for (let i = str.length - 1; i >= 0; i--) {
-        reverse = reverse + str[i];
-    }
-    return reverse;
-}
-console.log(reverseString("Tayyeb"));
+// function reverseString(str) {
+//     let reverse = '';
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         reverse = reverse + str[i];
+//     }
+//     return reverse;
+// }
+// console.log(reverseString("Tayyeb"));
 
 
 

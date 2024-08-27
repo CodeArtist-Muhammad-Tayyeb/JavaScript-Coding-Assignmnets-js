@@ -5,13 +5,16 @@
 
 // -------------------------------GETTING THE SUBSTRING-------------------------------------------
 // let text = "Hello World";
-// text = text.substring(5, 11);
+// text = text.substring(6, 11);
 // console.log(text);
 
 // -------------------------------EXTRACT THE CHARACTER FROM STRING---------------------------------
-// let text = "Hello World";
-// text = text.slice(6, 11);
-// console.log(text);
+// let text1 = "Hello World";
+// text1 = text1.slice(6, 11);
+// console.log(text1);
+
+// let a = "Hello World";
+// console.log(a.substr(0, 5));
 
 // -------------------------------SPLITTING THE STRING--------------------------------------------
 // let fullName = "hello-world";
@@ -23,15 +26,17 @@
 // console.log(arr);
 // arr = arr.join(" ");
 // console.log(arr);
+// console.log(typeof(arr));
 
 // ------------------------------FIND THE INDEX OF CHARACTER----------------------------------------
 // let text = "Hello World";
-// text = text.indexOf("o");
+// // text = text.indexOf("o");
+// text = text.charAt(4);
 // console.log(text);
 
 // ------------------------------FINDING THE LASTINDEX OF STRING-----------------------------------
 // let text = "Hello World World";
-// text = text.lastIndexOf("W");
+// text = text.lastIndexOf("World");
 // console.log(text);
 
 // ------------------------------CHECKING THE STRING START FROM "Wor"-------------------------------
@@ -45,7 +50,7 @@
 // console.log(text);
 
 // ------------------------------INCLUDE THE CHARACTER "o"------------------------------------------
-let text = "Hello";
-text = text.includes("o");
-console.log(text);
+// let text = "Hello";
+// text = text.includes("o");
+// console.log(text);
 

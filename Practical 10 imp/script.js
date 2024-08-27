@@ -185,3 +185,4 @@ first 10 numbers in the Fibonacci sequence. */
 /* Assignment 2: Guessing Game (imp)
 Write a JavaScript program that uses a while loop to play a guessing game, 
 where the user has to guess a randomly generated number between 1 and 100. */
+
